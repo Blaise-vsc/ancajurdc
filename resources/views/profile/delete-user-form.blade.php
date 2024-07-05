@@ -16,6 +16,7 @@
             <x-danger-button wire:click="confirmUserDeletion" wire:loading.attr="disabled">
                 {{ __('Delete Account') }}
             </x-danger-button>
+          
         </div>
 
         <!-- Delete User Confirmation Modal -->
@@ -36,6 +37,7 @@
                                 wire:keydown.enter="deleteUser" />
 
                     <x-input-error for="password" class="mt-2" />
+                
                 </div>
             </x-slot>
 
@@ -46,6 +48,7 @@
 
                 <x-danger-button class="ms-3" wire:click="deleteUser" wire:loading.attr="disabled">
                     {{ __('Delete Account') }}
+                   
                 </x-danger-button>
             </x-slot>
         </x-dialog-modal>

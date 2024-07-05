@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\livewire\Book;
+use App\livewire\DetailPage;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,4 +26,15 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::get('/bookfile', function () {
+        return view('bookfile');
+    })->name('bookfile');
+    Route::get('/book',Book::class);
+    Route::get('/detail',function(){
+        return view('details');
+    });
+    Route::get('/sent', function () {
+    return view('message');
+});
+
 });
