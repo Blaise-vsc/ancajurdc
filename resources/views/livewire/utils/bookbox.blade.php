@@ -36,19 +36,19 @@
      
     <ul class="flex justify-between items-center mb-3 text-sm font-medium text-gray-500 dark:text-gray-400 ">
         <li>
-            <a href="#" class="hover:underline me-4 md:me-6">call</a>
+            <a href="tel:+243970030810" class="hover:underline me-4 md:me-6">call</a>
         </li>
         <li>
-            <a href="#" class="hover:underline me-4 md:me-6">whatsapp</a>
+            <a href="https://wa.me/+243970030810" class="hover:underline me-4 md:me-6">whatsapp</a>
         </li>
         <li>
-            <a href="#" class="hover:underline me-4 md:me-6">facebook</a>
+            <a href=" https://www.facebook.com/ancaju243" class="hover:underline me-4 md:me-6">facebook</a>
         </li>
         <li>
-            <a href="#" class="hover:underline">linkdind</a>
+            <a href=" https://www.linkedin.com/in/ancaju-guest-house-05b44827b/" class="hover:underline">linkdind</a>
         </li>
     </ul>
-    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© rdc <p  class="hover:underline">cong</p>.katanga lubumbashi
     </span>
     </div>
   </footer>

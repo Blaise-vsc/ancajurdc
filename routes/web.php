@@ -29,7 +29,10 @@ Route::middleware([
     Route::get('/bookfile', function () {
         return view('bookfile');
     })->name('bookfile');
-    Route::get('/book',Book::class);
+    
+    Route::get('/book', function () {
+        return view('book');
+    })->name('book');
     Route::get('/detail',function(){
         return view('details');
     });
