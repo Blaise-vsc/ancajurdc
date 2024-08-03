@@ -32,7 +32,7 @@
     <!-- Scripts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     {{--  --}}
-    @vite(['resources/scss/appmsg.scss','resources/js/appmsg.js'])
+    @vite(['resources/css/style.css','resources/js/appmsg.js'])
 
     <!-- Styles -->
     @livewireStyles

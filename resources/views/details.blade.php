@@ -36,11 +36,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Oswald:wght@200..700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@300..900&family=Oswald:wght@200..700&family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
     {{--  --}}
-    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+    @vite(['resources/css/style.css', 'resources/js/app.js'])
     <title>{{ env('APP_NAME') }}</title>
     
 </head>
-<body class="antialiased bg-gray-100">
+<body style="width: 100vw" class="antialiased bg-gray-100">
     @livewire('detail-page')
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>

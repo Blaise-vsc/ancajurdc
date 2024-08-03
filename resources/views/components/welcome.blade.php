@@ -1,5 +1,5 @@
 <div style=' @media(max-width:300px){background: linear-gradient(to right, #ffffff00, #00000052, #000000b6), url("../album/mybg.jpg") } background: linear-gradient(to right, #ffffff00, #00000052, #000000b6), url("../album/mybg.jpg"); background-size:cover;    background-attachment: center;' class="p-6 lg:p-8 bg-white border-b border-gray-200 heading ">
-    <x-application-logo class="block h-12 w-auto" />
+    {{-- <x-application-logo class="" /> --}}
 
     <h1 class="mt-8 text-2xl font-medium text-white" style='  font-family: "Merienda", cursive;
     font-optical-sizing: auto;

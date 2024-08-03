@@ -18,7 +18,7 @@
     <div class="swiper-button-next scroolbtn "></div>
   
     <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar md:hidden"></div>
+    <div class="swiper-scrollbar hidden"></div>
   </div>
 {{--  --}}
   

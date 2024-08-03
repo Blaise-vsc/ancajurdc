@@ -53,7 +53,7 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <!-- Scripts -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+        @vite(['resources/css/style.css', 'resources/js/app.js'])
         {{-- font --}}
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,7 +75,7 @@
     <body class="" >
         <x-banner />
 
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-gray-100" style="width: 100%">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->

@@ -1,9 +1,7 @@
 <section class="" style="background-image: url('{{ asset('../album/contbg.webp') }}');
 background-size: cover;">
     <div class=" ">
-        <div class="w-full flex items-center justify-center">
-            <img class="h-[80px]" src="{{ asset('../album/ancaju.webp') }}" alt="">
-        </div>
+        
         <h2 class="tittleclass  text-2xl tracking-tight font-extrabold text-gray-900  text-center w-full">Trouvez-nous sur Google Map  <span class="text-[#FFE65E]">.</span></h2>
         <p class=" p-2 font-light text-gray-500 text-center md:text-lg dark:text-gray-400">Commune annexe, Lubumbashi, Rdcongo</p>
         {{--  --}}

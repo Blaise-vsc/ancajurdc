@@ -52,7 +52,7 @@
         
         {{--  --}}
        
-         @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+         @vite(['resources/css/style.css', 'resources/js/app.js'])
     </head>
     <body class="" style='  font-family: "Merienda", cursive;
     font-optical-sizing: auto;

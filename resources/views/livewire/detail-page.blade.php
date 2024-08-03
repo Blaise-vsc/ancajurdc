@@ -6,9 +6,9 @@
  @if ($item->id==$id)
      
 
-    <div  style="background:linear-gradient(to bottom, rgba(255, 0, 0, 0.316),rgba(0, 0, 255, 0.356)),url('uploads/{{ $item->image }}'), background-size: cover, background-repeat:no-repeat"  class=" linearbg flex flex-col items-center  rounded-lg shadow md:flex-row   w-full min-h-[100vh]">
+    <div  style="background:linear-gradient(to bottom, rgba(255, 0, 0, 0.316),rgba(0, 0, 255, 0.356)),url('uploads/{{ $item->image }}'), background-size: cover, background-repeat:no-repeat"  class=" linearbg flex flex-col items-center  rounded-lg shadow md:flex-row    min-h-[100vh]">
         
-            <div class="w-[100%] flex flex-col gap-6 h-[100%]">
+            <div class="w-[100%] flex flex-col  h-[100%]">
                 @include('livewire.utils.header')
                 @include('livewire.utils.detailviewSwipper')
               

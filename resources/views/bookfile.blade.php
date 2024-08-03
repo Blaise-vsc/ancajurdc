@@ -35,7 +35,7 @@ $id=$_GET['id'];
         <!-- Scripts -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         {{--  --}}
-        @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+        @vite(['resources/css/style.css', 'resources/js/app.js'])
         <title>{{ env('APP_NAME') }}</title>
         <link rel="shortcurt icon" href="{{ asset('ancaju.svg') }}">
 </head>

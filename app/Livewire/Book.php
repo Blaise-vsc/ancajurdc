@@ -66,8 +66,8 @@ public function resetd(){
         $valideted=$this->validate();
         Commande::create($valideted);
         $this->reset();
+        session()->flash('success','creted');
         $this->redirect('/sent');
-        // session()->flash('success','creted');
 
     }
     
